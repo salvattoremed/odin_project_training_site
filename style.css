@@ -1,0 +1,218 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.superior_division {
+    background-color: #1f2937;
+    padding-bottom: 30px;
+}
+
+.superior_div_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10%;
+    padding-left: 10%;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.superior_div_header_logo {
+    size: 24px;
+    color: #f9faf8;
+}
+
+
+.link_group {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.link_group a {
+    text-decoration: none;
+    size: 18px;
+    color: #E5E7EB;
+}
+
+.superior_division_body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10%;
+    padding-left: 10%;
+    flex-wrap: wrap;
+}
+
+.body_text_and_button h1 {
+    size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.body_text_and_button p {
+    size: 18px;
+    color: #E5E7EB;
+}
+
+.body_text_and_button button {
+    size: 18px;
+    color: #E5E7EB;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 5px;
+    font-weight: 900;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.body_text_and_button button:hover {
+    background-color: #0d5edf;
+}
+
+.image_placeholder {
+    background-color: aquamarine;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.middle_division {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.middle_division h1 {
+    align-items: center;
+    margin-bottom: 50px;
+    size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.middle_division_containers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.middle_division_containers div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle_division_images {
+    padding-right: 45px;
+    padding-left: 45px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 4px solid;
+    border-color: #3882f6;
+    border-radius: 10px;
+}
+
+.middle_lower_division {
+    display: flex;
+    background-color: #E5E7EB;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.text_container {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.quote_person p {
+    font-weight: 600;
+}
+
+.inspirational_text p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.bottom_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.call_to_action {
+    display: flex; 
+    background-color: #3882f6;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.bottom_section_text {
+    display: flex;
+    flex-direction: column;
+}
+
+#call_to_action_notice_01 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #F9Faf8;
+}
+
+#call_to_action_notice_02 {
+    font-size: 15px;
+    color: #E5E7EB;
+}
+
+.sign_up_button {
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: #E5E7EB;
+    color: #E5E7EB;
+    flex-wrap: wraps;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-wrap: nowrap;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
